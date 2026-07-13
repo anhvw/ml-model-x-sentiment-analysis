@@ -1,4 +1,5 @@
-# Welcome to 
+# Welcome to my practice on ML model - easy level
+[Tutorial](https://www.youtube.com/watch?v=4YGkfAd2iXM&t=1825s)
 
 # Process
 1. Data Collection: Tweet Data
