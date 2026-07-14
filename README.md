@@ -1,4 +1,3 @@
-# Welcome to my practice on ML model - easy level
 # X Sentiment Analysis
 
 This repository contains a complete end-to-end Machine Learning project that predicts the sentiment of a tweet (Positive or Negative). It includes a Jupyter Notebook for data preprocessing and model training, and a Streamlit web application for real-time inference.
