@@ -4,7 +4,7 @@ import pickle
 
 # 1. Load your saved model (and your vectorizer!)
 model = pickle.load(open('trained_model.sav', 'rb'))
-# vectorizer = pickle.load(open('vectorizer.sav', 'rb'))
+vectorizer = pickle.load(open('vectorizer.sav', 'rb'))
 
 # 2. Build the website UI
 st.title("Twitter Sentiment Analyzer")
