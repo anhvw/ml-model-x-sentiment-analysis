@@ -22,22 +22,3 @@ This repository contains a complete end-to-end Machine Learning project that pre
 
 ## Dataset
 [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
-
-
-
-
-
-
-
-
-## 📊 Dataset
-This model was trained on the Sentiment140 dataset (`training.1600000.processed.noemoticon.csv`), which contains 1.6 million extracted tweets annotated for sentiment. *(Note: The dataset is not included in this repository due to GitHub's file size limits).*
-
-## 💻 How to Run Locally
-
-If you want to run this application on your own machine, follow these steps:
-
-**1. Clone the repository**
-```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name

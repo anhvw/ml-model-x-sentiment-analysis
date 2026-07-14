@@ -15,15 +15,14 @@ user_input = st.text_input("Tweet:")
 # 3. Create the prediction button
 if st.button("Predict"):
     if user_input:
-        # Transform the text using the exact same vectorizer you trained with
-        # vectorized_input = vectorizer.transform([user_input])
+        # Transform the user's text into numbers using your saved vectorizer
+        vectorized_input = vectorizer.transform([user_input])
 
-        # Make the prediction
-        # prediction = model.predict(vectorized_input)
+        # Feed the numbers into your saved model
+        prediction = model.predict(vectorized_input)
 
-        # Display the result
-        # if prediction[0] == 1:
-        #     st.success("Positive tweet! 😊")
-        # else:
-        #     st.error("Negative tweet! 😔")
-        pass
+        # Display the result (assuming 1 is positive and 0 is negative)
+        if prediction[0] == 1:
+            st.success("Positive tweet! 😊")
+        else:
+            st.error("Negative tweet! 😔")
